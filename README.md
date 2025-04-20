@@ -113,7 +113,7 @@ Fetches weather data for a specified city and unit.
 
 **Query Parameters:**
 
-- `city` (string, required): The name of the city (e.g., "California").
+- `city` (string, required): The name of the city (e.g., "Nairobi").
 - `unit` (string, optional): The unit for temperature. Use `metric` for Celsius (default) or `imperial` for Fahrenheit.
 
 Example request:

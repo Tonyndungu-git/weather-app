@@ -18,7 +18,7 @@ class WeatherController extends Controller
     {
         $city = $request->query('city', 'Nairobi');
         $units = $request->query('units', 'metric'); // 'metric' for Celsius, 'imperial' for Fahrenheit
-        $apiKey = '8ee467ffab84f3f25c8a73dbba53743a'; // Replace with env('OPENWEATHERMAP_API_KEY') in prod
+        $apiKey = env('OPENWEATHERMAP_API_KEY'); // Replace with env('OPENWEATHERMAP_API_KEY') in prod
 
         if (!$apiKey) {
             Log::error('API key for OpenWeatherMap is missing in .env file');

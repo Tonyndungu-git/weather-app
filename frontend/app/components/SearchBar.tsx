@@ -7,25 +7,28 @@ interface SearchBarProps {
 const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
   const [city, setCity] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    onSearch(city);
-    setCity("");
+  const handleSearch = () => {
+    if (city.trim()) {
+      onSearch(city.trim());
+    }
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex gap-2 mb-6">
+    <div className="flex justify-between items-center bg-gray-600 p-4 rounded-lg mb-4">
       <input
         type="text"
-        placeholder="Enter city name"
         value={city}
         onChange={(e) => setCity(e.target.value)}
-        className="input input-bordered w-full"
+        className="bg-gray-800 text-white p-2 rounded-l-lg focus:outline-none"
+        placeholder="Enter city name"
       />
-      <button type="submit" className="btn btn-primary">
+      <button
+        onClick={handleSearch}
+        className="bg-blue-500 text-white px-4 py-2 rounded-r-lg"
+      >
         Search
       </button>
-    </form>
+    </div>
   );
 };
 

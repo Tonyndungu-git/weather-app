@@ -1,8 +1,6 @@
-// types/weather.ts
-
 export interface WeatherData {
   location: string;
-  units: 'metric' | 'imperial';
+  units: "metric" | "imperial";
   date: string;
   current: {
     temp: number;
@@ -14,7 +12,7 @@ export interface WeatherData {
   forecast: {
     date: string;
     temp: number;
-    icon: string;
     description: string;
+    icon: string;
   }[];
 }

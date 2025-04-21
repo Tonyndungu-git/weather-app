@@ -2,6 +2,8 @@
 
 Welcome to the **Wicked Weather Dashboard**! This project provides real-time weather data based on the user's city input, with options to toggle between Celsius and Fahrenheit for temperature units. It features a clean UI powered by **Tailwind CSS**, allowing users to easily search for weather information and view current conditions as well as a 3-day forecast. The backend is built using **PHP Laravel** and serves as the weather data API.
 
+![Homepage Screenshot](./homepage.png)
+
 ## Features
 
 - **Current Weather Info**: Displays current temperature, humidity, wind speed, and weather description.
@@ -161,15 +163,12 @@ GET /api/weather?city=California&unit=metric
 
 Contributions are welcome! Feel free to fork the project and submit pull requests for bug fixes, feature improvements, or new ideas.
 
-1. Fork the repository
-2. Create your branch (`git checkout -b feature-name`)
-3. Commit your changes (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature-name`)
+1. Fork the repository  
+2. Create your branch (`git checkout -b feature-name`)  
+3. Commit your changes (`git commit -m 'Add new feature'`)  
+4. Push to the branch (`git push origin feature-name`)  
 5. Create a new Pull Request
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
----

@@ -33,7 +33,7 @@ Welcome to the **Wicked Weather Dashboard**! This project provides real-time wea
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/wicked-weather-dashboard.git
+git clone https://github.com/your-username/weather-app.git
 ```
 
 ### 2. Install frontend dependencies:
@@ -41,7 +41,7 @@ git clone https://github.com/your-username/wicked-weather-dashboard.git
 Make sure you have **Node.js** and **npm** installed, then run the following commands:
 
 ```bash
-cd wicked-weather-dashboard/frontend
+cd weather-app/frontend
 npm install
 ```
 
@@ -50,16 +50,16 @@ npm install
 Make sure you have **PHP** and **Composer** installed. Navigate to the backend folder and run:
 
 ```bash
-cd wicked-weather-dashboard/backend
+cd weather-app/backend
 composer install
 ```
 
 ### 4. Set up your .env file (Backend):
 
-Copy the `.env.example` file and create a `.env` file with the following content:
+Copy the `.env.example` file with the following content:
 
 ```bash
-APP_NAME=WickedWeather
+APP_NAME=WEATHER-APP
 APP_ENV=local
 APP_KEY=base64:your-app-key
 APP_DEBUG=true
@@ -69,6 +69,16 @@ WEATHER_API_KEY=your-weather-api-key
 ```
 
 Replace `your-app-key` with the Laravel application key generated using `php artisan key:generate`, and `your-weather-api-key` with the key from the weather API provider.
+
+
+## NB: 
+This step may also be different i.e you may just need to create a `.env` file with the following content:
+
+```bash
+WEATHER_API_KEY=your-weather-api-key
+```
+
+
 
 ### 5. Run the backend server:
 

@@ -1,6 +1,6 @@
-# Wicked Weather Dashboard
+# Weather App
 
-Welcome to the **Wicked Weather Dashboard**! This project provides real-time weather data based on the user's city input, with options to toggle between Celsius and Fahrenheit for temperature units. It features a clean UI powered by **Tailwind CSS**, allowing users to easily search for weather information and view current conditions as well as a 3-day forecast. The backend is built using **PHP Laravel** and serves as the weather data API.
+Welcome to the **Weather  App**! This project provides real-time weather data based on the user's city input, with options to toggle between Celsius and Fahrenheit for temperature units. It features a clean UI powered by **Tailwind CSS**, allowing users to easily search for weather information and view current conditions as well as a 3-day forecast. The backend is built using **PHP Laravel** and serves as the weather data API.
 
 ![Homepage Screenshot](./homepage.png)
 

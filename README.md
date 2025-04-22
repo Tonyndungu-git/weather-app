@@ -71,7 +71,7 @@ WEATHER_API_KEY=your-weather-api-key
 Replace `your-app-key` with the Laravel application key generated using `php artisan key:generate`, and `your-weather-api-key` with the key from the weather API provider.
 
 
-## NB: 
+#### NB: 
 This step may also be different i.e you may just need to create a `.env` file with the following content:
 
 ```bash
